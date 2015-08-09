@@ -1,2 +1,3 @@
-general:
-  build_dir: api
+test:
+  override:
+    - mocha ./Rotation/StringsTest.js
