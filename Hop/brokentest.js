@@ -1,4 +1,4 @@
-require('./Strings.js');
+require('../Rotation/Strings.js');
 module.exports = sinon = require("sinon");
 module.exports = expect = require("chai").expect;
 
@@ -6,7 +6,7 @@ describe(Strings, function () {
   describe('isRotation', function () {
     var str1, str2;
     beforeEach(function () {
-      str1 = "waterbottleasd";
+      str1 = "waterbottle";
       str2 = "erbottlewat";
     });
     it('returns false if strings are not same length', function () {
